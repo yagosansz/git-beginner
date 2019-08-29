@@ -1,6 +1,7 @@
 # Git & GitHub - Rocketseat
 
 A practical guide for beginners.
+(Someone changed this, *do not delete* !)
 
 What is Git?
 
