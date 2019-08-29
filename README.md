@@ -26,10 +26,10 @@ https://cmder.net/ full version for windows comes with Git =)
 
 - [x] You need clone a project that is in development.
 - [x] You have to solve a conflict.
-- [] You have to update your local repository before uploading your changes to the remote repository.
+- [x] You have to update your local repository before uploading your changes to the remote repository.
 
-- [] You need to retrieve a file from a previous commit to your timeline.
-- [] You need to retrieve a file that was deleted.
+- [x] You need to retrieve a file from a previous commit to your timeline.
+- [x] You need to retrieve a file that was deleted.
 
 # Commands learned
 
@@ -43,7 +43,11 @@ https://cmder.net/ full version for windows comes with Git =)
 * `git branch -D` \\ deletes a branch from your project
 * `git checkout` \\ controls your timeline (e.g.: move between branches)
 * `git checkout -b` \\ creates a branch and switches to it
+* `git checkout <commit_code> -- <file_name>` \\ recovers a file from a specific commit in your timeline
+* `git checkout -- <file_name>` \\ recovers a file (e.g.: deleted file) from latest commit
 * `git merge` \\ combines different timelines / branches
 * `git remote -v` \\ check your remote repositories
 * `git push` \\ pushes changes from local repository to remote repository
 * `git push -u origin master` \\ creates master branch in remote repository when pushing for the 1st time
+* `git clone` \\ clone a project / repository
+* `git pull` \\  pull files from remote repository to update local repository
